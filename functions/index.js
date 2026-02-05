@@ -1,15 +1,13 @@
 /* eslint-disable no-undef */
-const functions = require("firebase-functions");
-const admin = require("firebase-admin");
+import * as functions from "firebase-functions";
+import { initializeApp } from "firebase-admin/app"; // Import from specific subpath
+import { createOrder } from "./logic/orders.js";
 
-admin.initializeApp();
+initializeApp(); // Call directly without 'admin.'
 
-const { createOrder } = require("./logic/orders"); // import your function
-
-exports.createOrderFunction = functions.https.onCall(async (data) => {
+export const createOrderFunction = functions.https.onCall(async (data) => {
   const { productId, quantity, userId } = data;
 
-  // validate inputs
   if (!productId || !quantity || quantity <= 0 || !userId) {
     return { success: false, error: "Invalid input" };
   }
@@ -22,4 +20,3 @@ exports.createOrderFunction = functions.https.onCall(async (data) => {
     return { success: false, error: err.message };
   }
 });
-

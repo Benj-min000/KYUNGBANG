@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
-// const { getProducts } = require('./products'); // './' points to same folder
-
+// Import the helper functions you used below
+import { reduceStock, getProductById } from "./products.js"; 
 
 const orders = [];
 
