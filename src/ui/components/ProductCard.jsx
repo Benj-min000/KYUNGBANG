@@ -1,6 +1,8 @@
 import ImagePlaceholder from "./ImagePlaceholder";
+import { Link } from "react-router-dom";
 
 export default function ProductCard({
+  id,
   name,
   price,
   description,
@@ -14,6 +16,7 @@ export default function ProductCard({
         maxWidth: "240px",
       }}
     >
+      <Link to={"/product/:id"} key={id} style={{textDecoration:'None', color: 'inherit'}}>
       <ImagePlaceholder ratio="1/1" label="Product Image" />
 
       <h3 style={{ fontSize: "16px", margin: "12px 0 4px" }}>
@@ -27,6 +30,7 @@ export default function ProductCard({
       <p style={{ fontSize: "14px", color: "#666" }}>
         {description}
       </p>
+      </Link>
 
       <div style={{ display: "flex", gap: "12px", marginTop: "8px" }}>
         <span>♡</span>

@@ -10,8 +10,8 @@ export default function HomeLayout({ featuredProducts }) {
     <div>
       {/* Banner */}
       <Section>
-        <div style={{ margin: '0 auto' }}>
-           <ImagePlaceholder label="Home Banner" ratio="21/9" />
+        <div style={{ margin: "0 auto" }}>
+           <ImagePlaceholder label={homeBannerLabel} ratio="21/9" />
         </div>
       </Section>
 
@@ -19,7 +19,7 @@ export default function HomeLayout({ featuredProducts }) {
       <Section>
         <div style={{ textAlign: "center", margin: '0 auto' }}>
           {slogans.map((line, idx) => (
-            <p style={{ fontSize: "18px", fontWeight: "600" }}>
+            <p key={idx} style={{ fontSize: "18px", fontWeight: "600" }}>
               {line}
             </p>
           ))}
@@ -28,14 +28,14 @@ export default function HomeLayout({ featuredProducts }) {
 
       {/* Featured Products */}
       <Section title={featuredProductsTitle}>
-        <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
+        <div style={{ display: "flex", gap: "24px", flexWrap: "wrap"}}>
           {featuredProducts.map((product) => (
-            <ProductCard
-              key={product.id}
-              name={product.name}
-              price={product.price}
-              description={product.shortDescription}
-            />
+              <ProductCard
+                key={product.id}
+                name={product.name}
+                price={product.price}
+                description={product.shortDescription}
+              />
           ))}
         </div>
       </Section>
