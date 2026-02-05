@@ -1,0 +1,92 @@
+{
+  "bannerLabel": "About Banner",
+  "sections": [
+    {
+      "title": "Company Overview",
+      "content": "KYUNGBANG is a specialized company that researches, develops and distributes natural-based daily health and living products. With high-quality ingredients, reasonable pricing and refined design, we aim to build a brand trusted by consumers both domestically and internationally."
+    },
+    {
+      "title": "Brand Story – IRYEON",
+      "content": "IRYEON started with the philosophy of creating products that families can use with confidence. By minimizing chemical ingredients and using natural extracts such as propolis and herbal ingredients, our goal is to make everyday products safer and healthier."
+    },
+    {
+      "title": "Core Competencies",
+      "list": [
+        {
+          "heading": "Natural ingredient-based product power",
+          "items": [
+            "Use of propolis, licorice, mugwort, and herbal extracts",
+            "Minimization of unnecessary chemicals",
+            "Suitable for sensitive skin and oral use"
+          ]
+        },
+        {
+          "heading": "One-stop system from manufacturing to distribution",
+          "items": [
+            "In-house product planning and manufacturing control",
+            "Direct packaging design management",
+            "Online and offline distribution channels"
+          ]
+        },
+        {
+          "heading": "Premium design & gift set specialization",
+          "items": [
+            "Gift set configurations",
+            "Premium package design",
+            "Custom production for holidays, corporate, and VIP gifts"
+          ]
+        },
+        {
+          "heading": "Domestic and overseas sales channels",
+          "items": [
+            "Online marketplaces",
+            "Wholesale channels",
+            "Overseas export testing (Europe market)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Main Product Line",
+      "list": [
+        {
+          "heading": "IRYEON Propolis Toothpaste",
+          "items": [
+            "Bad breath removal / Gum care",
+            "Enhanced antibacterial ingredients",
+            "Planned as quasi-drug standard product"
+          ]
+        },
+        {
+          "heading": "IRYEON Natural Soap / Shampoo / Body Wash",
+          "items": [
+            "Herbal ingredients",
+            "Low irritation formula",
+            "Suitable for families and sensitive users"
+          ]
+        },
+        {
+          "heading": "IRYEON Gift Sets",
+          "items": [
+            "Holiday gifts",
+            "Corporate promotional gifts",
+            "Public institution supply"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Vision",
+      "content": "KYUNGBANG aims to grow from a distribution company into a brand-owning manufacturing company."
+    },
+   	{
+      "title": "Mid to long term goals",
+      "headings": [
+        "Own factory registration",
+        "Expansion of functional and quasi-drug products",
+        "OEM/ODM partnerships overseas",
+        "Entry into public procurement markets"
+      ]
+    }
+  ]
+}
